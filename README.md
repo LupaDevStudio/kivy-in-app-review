@@ -8,14 +8,14 @@ This module is licensed under the Apache License version 2.0.
 
 ## Integration
 
-> :warning: Warning 
+> :warning: Warning:  
 > This module has only been tested for android API versions between 28 and 34. This might not work for older versions.
 
 To integrate this module in your application you have to follow a few steps:
 
 1. **Copy the code inside your folders** : You have to copy the `src` folder and the `kivyreview.py` file inside your own code arborescence. If you copy them at the root of your project, you can use directly the following instructions, if you prefer to rename the `src` folder or move the files somewhere else, do not forget to adapt the paths in the instructions to match the ones you used.
 
-> :warning: Warning 
+> :warning: Warning:  
 > Do not rename the `ReviewHandler.java` file unless you know what you are doing. You will need to adapt the java code in this case.
 
 2. **Update your `buildozer.spec` file** : Some modifications needs to be done in the `buildozer.spec` file:
@@ -32,7 +32,7 @@ It needs to be replaced by:
 ndroid.gradle_dependencies = com.google.android.play:core:1.10.0
 ```
 
-> :pencil: Note 
+> :pencil: Note:  
 > If you already have other dependencies, just add a comma between them.
 
 Search the line allowing to include additional java code in your application.
